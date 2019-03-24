@@ -100,8 +100,36 @@ public class Hello {
             System.out.println("You got the high score!");
 
         int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 100)
+        if ((topScore > secondTopScore) && (topScore < 100))
             System.out.println("Greater than second top score and less than 100");
+        //more operators
+
+        if ((topScore > 90) || (secondTopScore <= 90))
+            System.out.println("One of these tests is true");
+
+        int newValue = 50;
+        if (newValue == 50)
+            System.out.println("This is true!");
+
+        boolean isCar = false;
+        if (isCar == true)
+            System.out.println("This is not suppose to happen.");
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if(wasCar)
+            System.out.println("wasCar is true");
+
+        //EXERCISE
+
+         double d1 =20;
+         double d2 =80;
+         double dTotal = (d1 + d2) * 25;
+        System.out.println("dTotal = " + dTotal);
+         double modulo = dTotal % 40;
+        System.out.println("modulo = " + modulo);
+         if (modulo <= 20)
+             System.out.println("Total was over the limit.");
 
 
     }
