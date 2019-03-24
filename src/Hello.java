@@ -35,5 +35,14 @@ public class Hello {
         long longTotal = 50000L + 10L * (myShortValue + myByteValue + myMaxValue);
         System.out.println("longTotal = " + longTotal);
 
+
+        //Section3.21 Char and Boolean
+        char myChar1 = '&';
+        char myCharUnicode = '\u00A9';
+        System.out.println(myCharUnicode);
+
+        boolean myBoolean = false;
+        boolean isMale = true;
+
     }
 }
